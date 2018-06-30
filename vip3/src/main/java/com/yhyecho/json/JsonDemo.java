@@ -96,7 +96,7 @@ public class JsonDemo {
         for (int i = 0; i < 100; i++) {
             ho.writeObject(person);
             if (i == 0) {
-                System.out.println("序列化大小:" + os.toByteArray().length);
+                System.out.println("Hession序列化大小:" + os.toByteArray().length);
             }
         }
 
